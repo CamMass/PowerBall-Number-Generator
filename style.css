@@ -1,0 +1,56 @@
+.header {
+  display: inline-block;
+  text-align: center;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 5px; /*border thickness*/
+  border-color: black;
+  width: 100px;
+  height: 100px;
+  padding: 9px 3px 0px 3px; /*Size of the circles*/
+  margin: 0.5px; /* distance between circles*/
+  /* box-sizing: border-box; */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 70px;
+}
+#headerBALL {
+  background: red;
+  color: white;
+  /* font-size: 50px; */
+}
+#subHeading {
+  color: white;
+  background-color: black;
+  background-position-x: center;
+  text-align: center;
+}
+.headingBlock {
+  text-align: center;
+}
+.subHeadingBlock {
+  font-size: 30px;
+  margin: 0px;
+}
+#BALL {
+  display: inline-block;
+  font-size: 0px;
+}
+/* table css */
+th {
+  padding: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+body {
+  width: 100%;
+}
+.ButtonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+td {
+  text-align: center;
+  font-size: 30px;
+}
